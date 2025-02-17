@@ -27,12 +27,12 @@ const options = {
   apis: ['./src/routes.ts'], // Ruta a los archivos que contienen las rutas
 };
 const specs = swaggerJsdoc(options);
-app.use('/api', swaggerUi.serve, swaggerUi.setup(specs));
-
 app.use(express.json());
 app.use(cors());
 
 app.use('/api', routes);
+
+app.use('/api', swaggerUi.serve, swaggerUi.setup(specs));
 
 app.use(
   '/files/planets',
