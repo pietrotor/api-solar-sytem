@@ -1,7 +1,3 @@
-# REPOSITORIO BASE
-
-[https://github.com/leovargasdev/api-solar-system](https://github.com/leovargasdev/api-solar-system)
-
 <h1 align="center">
   API Solar System
 </h1>
@@ -33,3 +29,9 @@ $ npm install
 # Ejecutar
 $ npm run dev
 ```
+
+# REPOSITORIO BASE
+
+Este proyecto fue desarrollado tomando como base este repositorio:
+
+[https://github.com/leovargasdev/api-solar-system](https://github.com/leovargasdev/api-solar-system)
